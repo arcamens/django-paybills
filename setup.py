@@ -2,8 +2,8 @@
 
 from distutils.core import setup
 
-setup(name="paybills",
-      version="2.0.0",
+setup(name="django-paybills",
+      version="1.0.0",
       description="Django app for paypal integration.",
       packages=["paybills"],
       author="Iury O. G. Figueiredo",
@@ -12,6 +12,8 @@ setup(name="paybills",
       download_url='',
       keywords=[],
       classifiers=[])
+
+
 
 
 
