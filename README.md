@@ -11,4 +11,9 @@ The django-paybills package runs on python3.5+ and requires django=>2.1.7.
 pip install django-paybills
 ~~~
 
+# Documentation
+
+Check django-paybills wiki for more details.
+
+[Wiki](https://github.com/arcamens/django-paybills/wiki)
 
