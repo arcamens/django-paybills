@@ -57,9 +57,19 @@ git push origin : v2.0.0
 # Upload the package.
 python setup.py sdist register upload
 rm -fr dist
+##############################################################################
+# Create demo project.
+django-admin startproject demo django-paybills-code
 
+cd ~/projects/projectname-code
+python manage.py startapp libdemo
 
+#####k#########################################################################
+# create demo virtualenv.
+cd ~/.virtualenvs/
+ls -la
 
-
+# By default, python3 has executable named python in arch linux.
+virtualenv  django-paybills -p python3.5
 
 
